@@ -38,6 +38,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "swiper": "^11.1.1"
   }
 }
