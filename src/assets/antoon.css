@@ -5,12 +5,43 @@ body {
     background-size: 100% 100%;
 }
 
-    #bdgroove2 {
+#bdgroove2 {
     padding-left: 10px;
     padding-right: 10px;
-    }
+}
 
-    .border {
-        border-width: 6px;
-        background-color: aquamarine;
+.border {
+    border-width: 6px;
+    background-color: aquamarine;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.foto-logo {
+    max-width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 769px) {
+    .foto-logo {
+        width: 160px;
     }
+}
+
+@media (max-width: 426px) {
+    .foto-logo {
+        width: 140px;
+    }
+}
+
+@media (max-width: 376px) {
+    .foto-logo {
+        width: 120px;
+    }
+}
