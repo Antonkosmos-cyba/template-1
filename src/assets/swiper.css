@@ -164,7 +164,7 @@ a {
 /* Стили стрелок! поскольку они иконочным щрифтом, то можно менять стиль */
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
-  color: #1bd10e;
+  color: #f6f7f6;
   font-size: 40px;
 }
 
