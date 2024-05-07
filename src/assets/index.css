@@ -615,11 +615,6 @@ video {
   border-width: 1px;
 }
 
-.bg-amber-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
-}
-
 .bg-red-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 226 226 / var(--tw-bg-opacity));
@@ -683,17 +678,12 @@ video {
   line-height: 2.5rem;
 }
 
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
 .leading-\[40px\] {
   line-height: 40px;
-}
-
-.leading-\[60px\] {
-  line-height: 60px;
-}
-
-.text-green-800 {
-  --tw-text-opacity: 1;
-  color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
 .text-green-900 {
