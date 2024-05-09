@@ -12,7 +12,7 @@ body {
 
 .border {
     border-width: 6px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .logo {

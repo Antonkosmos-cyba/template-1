@@ -33,6 +33,7 @@ function html() {
         })
       )
       .pipe(dest("dist"))
+      .pipe(sync.reload({ stream: true }))
   );
 }
 
@@ -49,6 +50,7 @@ function css() {
       // .pipe(concat('index.css'))
       .pipe(removeComments())
       .pipe(dest("dist/assets"))
+      .pipe(sync.reload({ stream: true }))
   );
 }
 function css_swip() {
@@ -64,6 +66,7 @@ function js() {
       .pipe(gulpUglify())
       // .pipe(concat('index.js'))
       .pipe(dest("dist/assets/js"))
+      .pipe(sync.reload({ stream: true }))
   );
 }
 
@@ -118,8 +121,8 @@ function serve() {
     server: "./dist",
   });
   watch("src/**/**.html", series(html)).on("change", sync.reload);
-  watch("src/scss/**.scss", series(css)).on("change", sync.reload);
-  watch("src/js/**.js", series(js)).on("change", sync.reload);
+  watch("src/assets/**.css", series(css)).on("change", sync.reload);
+  watch("src/**.js", series(js)).on("change", sync.reload);
 }
 exports.build = series(
   del,
