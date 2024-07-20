@@ -124,17 +124,7 @@ function serve() {
   watch("src/assets/**.css", series(css)).on("change", sync.reload);
   watch("src/**.js", series(js)).on("change", sync.reload);
 }
-exports.build = series(
-  del,
-  images,
-  media,
-  font,
-  js,
-  js_swip,
-  css,
-  css_swip,
-  html
-);
+exports.build = series(images, media, font, js, js_swip, css, css_swip, html);
 exports.serve = series(
   del,
   images,
