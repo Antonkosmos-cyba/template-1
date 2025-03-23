@@ -1,8 +1,8 @@
 body {
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 #bdgroove2 {
@@ -10,9 +10,13 @@ body {
     padding-right: 10px;
 }
 
+#text {
+    font-size: clamp(1.5rem, 1.3295rem + 0.8523vw, 1.875rem);
+}
+
 .border {
     border-width: 6px;
-    /* background-color: aquamarine; */
+    background-color: rgb(166, 227, 152);
 }
 
 .logo {
