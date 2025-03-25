@@ -539,11 +539,6 @@ video {
   margin-right: 0.25rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -557,10 +552,6 @@ video {
   margin-top: 10px;
 }
 
-.flex {
-  display: flex;
-}
-
 .h-auto {
   height: auto;
 }
@@ -569,21 +560,12 @@ video {
   max-width: 500px;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
 
 .border {
   border-width: 1px;
-}
-
-.bg-cyan-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
 }
 
 .px-3 {
@@ -609,14 +591,6 @@ video {
   text-align: center;
 }
 
-.font-Spectral {
-  font-family: Spectral;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
-}
-
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -627,10 +601,6 @@ video {
 
 .leading-\[40px\] {
   line-height: 40px;
-}
-
-.leading-\[60px\] {
-  line-height: 60px;
 }
 
 .text-green-800 {
@@ -650,13 +620,43 @@ body {
   background-size: cover;
 }
 
-p {
-  font-family: url('./assets/CoopBlack_Cyrillic_0.ttf');
+#text {
   font-size: clamp(1.5rem, 1.3295rem + 0.8523vw, 1.875rem);
 }
 
 .border {
   border-width: 6px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+}
+
+.foto-logo {
+  max-width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 769px) {
+  .foto-logo {
+    width: 160px;
+  }
+}
+
+@media (max-width: 426px) {
+  .foto-logo {
+    width: 140px;
+  }
+}
+
+@media (max-width: 376px) {
+  .foto-logo {
+    width: 120px;
+  }
 }
 
 /* #bdgroove2 {

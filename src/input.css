@@ -10,13 +10,43 @@
      background-size: cover;
  }
 
- p {
-     font-family: url('./assets/CoopBlack_Cyrillic_0.ttf');
+ #text {
      font-size: clamp(1.5rem, 1.3295rem + 0.8523vw, 1.875rem);
  }
 
  .border {
      border-width: 6px;
+ }
+
+ .logo {
+     width: 100%;
+     display: flex;
+     justify-content: end;
+     padding-right: 15px;
+ }
+
+ .foto-logo {
+     max-width: 200px;
+     margin-top: 20px;
+     border-radius: 10px;
+ }
+
+ @media (max-width: 769px) {
+     .foto-logo {
+         width: 160px;
+     }
+ }
+
+ @media (max-width: 426px) {
+     .foto-logo {
+         width: 140px;
+     }
+ }
+
+ @media (max-width: 376px) {
+     .foto-logo {
+         width: 120px;
+     }
  }
 
  /* #bdgroove2 {
