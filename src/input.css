@@ -1,8 +1,25 @@
-    @font-face {
-        font-family: "Spectral";
-        src: url("./assets/Spectral.ttf") format("truetype");
-    }
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
 
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
+
+ body {
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ p {
+     font-family: url('./assets/CoopBlack_Cyrillic_0.ttf');
+     font-size: clamp(1.5rem, 1.3295rem + 0.8523vw, 1.875rem);
+ }
+
+ .border {
+     border-width: 6px;
+ }
+
+ /* #bdgroove2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
