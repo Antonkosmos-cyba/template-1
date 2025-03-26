@@ -3,6 +3,11 @@
  @tailwind utilities;
 
 
+ @font-face {
+     font-family: "Caveat-Regular";
+     src: url('./assets/Caveat-Regular.ttf');
+ }
+
  body {
      background-attachment: fixed;
      background-repeat: no-repeat;
