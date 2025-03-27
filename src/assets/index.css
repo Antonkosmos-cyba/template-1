@@ -591,8 +591,8 @@ video {
   text-align: center;
 }
 
-.font-Caveat-Regular {
-  font-family: Caveat-Regular;
+.font-Caveat {
+  font-family: Caveat-Regular, sans-serif;
 }
 
 .text-\[40px\] {
